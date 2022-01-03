@@ -45,6 +45,7 @@ Run `npm i`
 ### Usage
 
 Use your favorite code editor
+Run `npm start`
 
 ## 💻📱 Live Preview
 
