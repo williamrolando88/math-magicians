@@ -1,19 +1,19 @@
 import React from 'react';
 
 const Button = (props) => {
-  const { name, index, onClick } = props;
+  const { name, onClick } = props;
 
   const validateName = (name) => {
     return ['÷', 'x', '-', '+', '='].includes(name);
   };
 
   const getClases = (name) => {
-    let classes = 'py-4 px-6 border bg-slate-50';
+    let classes = 'py-4 px-6 border active:text-white';
     if (validateName(name)) {
       console.log(name);
-      classes += ' bg-orange-500';
+      classes += ' bg-orange-500 hover:bg-orange-400 active:bg-orange-900';
     } else {
-      classes += ' bg-slate-50';
+      classes += ' bg-slate-50 hover:bg-slate-200 active:bg-slate-500';
     }
     if (name === 0) {
       classes += ' col-span-2';
