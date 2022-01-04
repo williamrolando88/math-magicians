@@ -1,17 +1,46 @@
 import React, { Component } from 'react';
+import calculate from '../logic/calculate';
 
 export default class Calculator extends Component {
   state = {
     total: null,
     next: null,
     operation: null,
+    screen: 0,
+  };
+
+  handleClick = (e) => {
+    const state = calculate(this.state, e.target.name);
+    this.setState({ ...state });
+    console.log(this.state);
+  };
+
+  componentDidUpdate = (prevProp, prevState) => {
+    if (prevState.next !== this.state.next && this.state.next) {
+      this.setState({ screen: this.state.next });
+    }
+    if (
+      this.state.total &&
+      !this.state.next &&
+      prevState.total !== this.state.total
+    ) {
+      this.setState({ screen: this.state.total });
+    }
+    if (
+      !this.state.total &&
+      !this.state.next &&
+      (prevState.next !== this.state.next ||
+        prevState.total !== this.state.total)
+    ) {
+      this.setState({ screen: 0 });
+    }
   };
 
   render() {
     return (
       <div className='grid grid-cols-4 w-max mx-auto mt-20'>
         <p className='col-span-4 bg-gray-500 text-white py-4 text-right px-2'>
-          {this.state.total}
+          {this.state.screen}
         </p>
         <button
           name='AC'
@@ -41,13 +70,13 @@ export default class Calculator extends Component {
           %
         </button>
         <button
-          name='/'
+          name='÷'
           onClick={(e) => {
             this.handleClick(e);
           }}
           className='py-4 px-6 border bg-orange-500'
           type='button'>
-          /
+          ÷
         </button>
         <button
           name='7'
@@ -77,13 +106,13 @@ export default class Calculator extends Component {
           9
         </button>
         <button
-          name='*'
+          name='x'
           onClick={(e) => {
             this.handleClick(e);
           }}
           className='py-4 px-6 border bg-orange-500'
           type='button'>
-          *
+          x
         </button>
         <button
           name='4'
