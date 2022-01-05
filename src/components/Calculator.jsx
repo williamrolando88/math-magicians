@@ -8,13 +8,14 @@ const Calculator = () => {
   const [operation, setOperation] = useState(null);
 
   const handleClick = (e) => {
-    const [newTotal, newNext, newOperation] = calculate(
-      { total, next, operation },
-      e.target.name,
-    );
-    setTotal(newTotal);
-    setNext(newNext);
-    setOperation(newOperation);
+    const {
+      total: newTotal,
+      next: newNext,
+      operation: newOperation,
+    } = calculate({ total, next, operation }, e.target.name);
+    setTotal(!newTotal ? null : newTotal);
+    setNext(!newNext ? null : newNext);
+    setOperation(!newOperation ? null : newOperation);
   };
 
   const buttonValue = [
