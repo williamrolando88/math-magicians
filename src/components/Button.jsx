@@ -10,7 +10,6 @@ const Button = (props) => {
   const getClases = (name) => {
     let classes = 'py-4 px-6 border active:text-white';
     if (validateName(name)) {
-      console.log(name);
       classes += ' bg-orange-500 hover:bg-orange-400 active:bg-orange-900';
     } else {
       classes += ' bg-slate-50 hover:bg-slate-200 active:bg-slate-500';
