@@ -121,6 +121,7 @@ export default function calculate(obj, buttonName) {
   }
 
   // save the operation and shift 'next' into 'total'
+
   return {
     total: obj.next,
     next: null,
