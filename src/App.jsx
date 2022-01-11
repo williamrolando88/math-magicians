@@ -1,14 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import BasicCalculator from './components/BasicCalculator';
-import Calculator from './components/Calculator';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Quote from './components/Quote';
 
 const App = () => (
   <BrowserRouter>
-    <div>
+    <div className="flex justify-center items-center bg-slate-50 h-screen">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

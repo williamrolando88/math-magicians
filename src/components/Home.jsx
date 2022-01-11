@@ -1,10 +1,10 @@
 import React from 'react';
 
 const Home = () => (
-  <div>
-    <h1>Welcome to our page!</h1>
-    <div>
-      <p>
+  <section className="text-xl w-4/5">
+    <h1 className="text-3xl font-serif">Welcome to our page!</h1>
+    <div className="mt-4 ">
+      <p className="mt-4">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo vitae
         molestiae sequi sint voluptatum eos distinctio voluptates sit saepe
         error cumque placeat, vel at porro, tempore, reprehenderit quibusdam
@@ -24,7 +24,7 @@ const Home = () => (
         repudiandae commodi alias nulla praesentium expedita consequatur amet
         consequuntur!
       </p>
-      <p>
+      <p className="mt-4">
         Reiciendis impedit minima adipisci soluta, distinctio porro aspernatur
         necessitatibus exercitationem ducimus suscipit modi eaque, ipsa, omnis
         saepe totam dolore nesciunt ex a architecto eos? Distinctio, labore.
@@ -44,7 +44,7 @@ const Home = () => (
         repellendus ab, nobis, tenetur velit.
       </p>
     </div>
-  </div>
+  </section>
 );
 
 export default Home;
