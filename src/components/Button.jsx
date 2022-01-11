@@ -1,7 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Button = (props) => {
   const { name, onClick } = props;
+
+  Button.propTypes = {
+    name: PropTypes.string.isRequired,
+    onClick: PropTypes.func.isRequired,
+  };
 
   const validateName = (name) => ['÷', 'x', '-', '+', '='].includes(name);
 
