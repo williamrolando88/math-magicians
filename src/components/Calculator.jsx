@@ -46,8 +46,8 @@ const Calculator = () => {
         {next === null ? (total === null ? 0 : total) : next}
       </p>
 
-      {buttonValue.map((button, index) => (
-        <Button key={index} name={button} onClick={handleClick} />
+      {buttonValue.map((button) => (
+        <Button key={button} name={button} onClick={handleClick} />
       ))}
     </div>
   );
