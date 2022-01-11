@@ -1,13 +1,17 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Calculator from './components/Calculator';
+import Home from './components/Home';
 import Navbar from './components/Navbar';
 
 const App = () => (
   <BrowserRouter>
     <div>
       <Navbar />
-      <Calculator />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Calculator />
+      </Routes>
     </div>
   </BrowserRouter>
 );
