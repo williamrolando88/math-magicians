@@ -3,9 +3,7 @@ import React from 'react';
 const Button = (props) => {
   const { name, onClick } = props;
 
-  const validateName = (name) => {
-    return ['÷', 'x', '-', '+', '='].includes(name);
-  };
+  const validateName = (name) => ['÷', 'x', '-', '+', '='].includes(name);
 
   const getClases = (name) => {
     let classes = 'py-4 px-6 border active:text-white';
@@ -23,7 +21,7 @@ const Button = (props) => {
   return (
     <button
       className={getClases(name)}
-      type='button'
+      type="button"
       name={name}
       onClick={onClick}>
       {name}

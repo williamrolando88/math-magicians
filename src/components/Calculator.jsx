@@ -41,8 +41,8 @@ const Calculator = () => {
   ];
 
   return (
-    <div className='grid grid-cols-4 w-max mx-auto mt-20'>
-      <p className='col-span-4 bg-gray-500 text-white py-4 text-right px-2'>
+    <div className="grid grid-cols-4 w-max mx-auto mt-20">
+      <p className="col-span-4 bg-gray-500 text-white py-4 text-right px-2">
         {next === null ? (total === null ? 0 : total) : next}
       </p>
 
