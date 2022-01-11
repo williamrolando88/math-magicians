@@ -7,7 +7,7 @@ import Quote from './components/Quote';
 
 const App = () => (
   <BrowserRouter>
-    <div className="flex justify-center items-center bg-slate-50 h-screen">
+    <div className="flex justify-center items-center bg-slate-50 h-screen py-40">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

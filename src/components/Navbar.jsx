@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => (
-  <header className="fixed top-0 left-0 shadow w-full px-6 py-4">
+  <header className="fixed top-0 left-0 shadow w-full px-6 py-4 bg-slate-50">
     <nav className="flex justify-between items-center text-2xl">
       <h1 className="text-3xl font-semibold font-serif">Math Magicians</h1>
       <div>
