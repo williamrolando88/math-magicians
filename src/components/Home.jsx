@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <section className="text-xl px-[10%] mt-40">
+    <section className="text-xl w-4/5">
       <h2 className="text-4xl font-serif">Welcome to our page!</h2>
       <div className="flex flex-col gap-6 mt-10">
         <p>

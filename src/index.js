@@ -3,15 +3,17 @@ import ReactDOM from 'react-dom';
 import Calculator from './components/Calculator';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
+import Quote from './components/Quote';
 import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
     <Navbar />
-    <main className="h-screen bg-slate-50">
-      <Home />
+    <div className="h-screen bg-slate-50 flex items-center justify-center">
+      {/* <Home /> */}
       {/* <Calculator /> */}
-    </main>
+      <Quote />
+    </div>
   </React.StrictMode>,
   document.getElementById('root'),
 );
