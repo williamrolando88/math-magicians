@@ -10,7 +10,6 @@ const App = () => (
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Calculator />
       </Routes>
     </div>
   </BrowserRouter>
