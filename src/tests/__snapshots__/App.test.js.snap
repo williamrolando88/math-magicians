@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering Component: App Structure of App renders correctly. 1`] = `
+<div
+  className="flex justify-center items-center bg-slate-50 h-screen py-40"
+>
+  <header
+    className="fixed top-0 left-0 shadow w-full px-6 py-4 bg-slate-50"
+  >
+    <nav
+      className="flex justify-between items-center text-2xl"
+    >
+      <h1
+        className="text-3xl font-semibold font-serif"
+      >
+        Math Magicians
+      </h1>
+      <div>
+        <a
+          className="border-r px-4 hover:text-orange-500"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+        <a
+          className="border-r px-4 hover:text-orange-500"
+          href="/basic-calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+        <a
+          className="px-4 hover:text-orange-500"
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </div>
+    </nav>
+  </header>
+  <section
+    className="text-xl w-4/5"
+  >
+    <h1
+      className="text-3xl font-serif"
+    >
+      Welcome to our page!
+    </h1>
+    <div
+      className="mt-4 "
+    >
+      <p
+        className="mt-4"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta doloremque dolores dolorum alias dignissimos fuga praesentium nemo quaerat molestiae expedita ut illo vel eveniet placeat, totam omnis sit maiores officia nam ea numquam. Possimus doloribus culpa, sit itaque quidem, modi minus voluptatem totam vero vitae voluptas a natus explicabo rem!
+      </p>
+      <p
+        className="mt-4"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi asperiores porro iste dolore consequuntur accusamus alias laborum, praesentium, fugiat facere dolorem illo eligendi magni neque possimus quasi cum ea! Amet necessitatibus numquam, id voluptatem qui voluptas laboriosam eius beatae nihil ipsam aliquid nam veniam nostrum neque debitis aut dolorem quos molestias vitae animi. At dolor voluptatem recusandae doloremque dignissimos, voluptatum enim perspiciatis tenetur atque necessitatibus aspernatur tempora! Iure quod illo sit minima veniam ipsam reiciendis laboriosam molestiae placeat! Velit numquam dolores vitae atque sit? Odio nesciunt quam quos nisi corporis nemo voluptatibus sed doloribus recusandae nam architecto, ipsam non eligendi?
+      </p>
+    </div>
+  </section>
+</div>
+`;
