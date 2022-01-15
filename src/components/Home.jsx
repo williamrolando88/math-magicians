@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => (
   <section className="text-xl w-4/5">
-    <h1 className="text-3xl font-serif">Welcome to our page!</h1>
+    <h1 className="text-3xl font-serif">Welcome to my page!</h1>
     <div className="mt-4 ">
       <p className="mt-4">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
