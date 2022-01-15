@@ -49,9 +49,9 @@ Run `npm start`
 
 ## 💻📱 Live Preview
 
-There is no Live Demo available at the moment
+<!-- There is no Live Demo available at the moment -->
 
-<!-- If you want to see a live demo of this project, [click here](https://williamrolando88.github.io/math-magicians/) -->
+If you want to see a live demo of this project, [click here](https://williamrolando88.github.io/math-magicians/)
 
 ## Authors
 
