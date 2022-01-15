@@ -18,7 +18,7 @@ const Button = (props) => {
     } else {
       classes += ' bg-slate-50 hover:bg-slate-200 active:bg-slate-500';
     }
-    if (name === 0) {
+    if (name === '0') {
       classes += ' col-span-2';
     }
     return classes;
