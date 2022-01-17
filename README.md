@@ -1,8 +1,24 @@
 # Math Magicians
 
-<!-- Include a paragraph of the app -->
+This web app shows a simple calculator to exercise the deployment of a react aplication with react router.
+This project was developed as a Single Page Application (SPA)
 
-<!-- ### 🖥️ Desktop version -->
+## Responsive design:
+
+Desktop version only
+
+![pic1](./screenshots/pic1.png)
+
+### 🖥️ Desktop version
+
+Home Page
+![pic1](./screenshots/pic2.png)
+
+Calculator Page
+![pic1](./screenshots/pic3.png)
+
+Quote Page
+![pic1](./screenshots/pic4.png)
 
 <!-- Include some screenshots of desktop version -->
 
@@ -13,8 +29,8 @@
 ## ✅ Learning objectives
 
 - Create SPA with React.js
-<!-- - objective 2
-- objective 3 -->
+- Learn and exercise the usage of SPA with React Router
+- Deploy SPA with different methods: GitHub Pages, Netlify, Heroku
 
 ## 🧩 Built With
 
@@ -22,6 +38,9 @@
 
 - React.js
 - Linters
+- TailwindCSS
+- Netlify
+- Heroku
 
 ## 📚 Getting Started
 
@@ -51,7 +70,11 @@ Run `npm start`
 
 <!-- There is no Live Demo available at the moment -->
 
-If you want to see a live demo of this project, [click here](https://williamrolando88.github.io/math-magicians/)
+If you want to see a live demo of this project, click the following links:
+
+- [GitHub Pages](https://williamrolando88.github.io/math-magicians/)
+- [Heroku](https://wr88-math-magicians.herokuapp.com/)
+- [Netlify](https://silly-wescoff-c694b6.netlify.app/)
 
 ## Authors
 
