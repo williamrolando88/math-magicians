@@ -51,7 +51,7 @@ Run `npm start`
 
 <!-- There is no Live Demo available at the moment -->
 
-If you want to see a live demo of this project, [click here](https://williamrolando88.github.io/math-magicians/)
+If you want to see a live demo of this project, [click here](https://wr88-math-magicians.netlify.app/)
 
 ## Authors
 
