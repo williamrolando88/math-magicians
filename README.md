@@ -73,8 +73,7 @@ Run `npm start`
 If you want to see a live demo of this project, click the following links:
 
 - [GitHub Pages](https://williamrolando88.github.io/math-magicians/)
-- [Heroku](https://wr88-math-magicians.herokuapp.com/)
-- [Netlify](https://silly-wescoff-c694b6.netlify.app/)
+- [Netlify](https://wr88-math-magicians.netlify.app/)
 
 ## Authors
 
